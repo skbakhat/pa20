@@ -1,0 +1,57 @@
+.MainLogin{
+    /* background-color: red; */
+
+    width: 30%;
+    margin: auto;
+    /* background-color: green; */
+    padding: 20px;
+}
+#loginBtn{
+    margin: 50px;
+    border: 0px;
+    background: transparent;
+    background-color: white;
+    padding: 15px 50px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px gray;
+}
+.MainLogin>input{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(230, 230, 231);
+    border: 0px;
+    margin: 10px;
+    font-size: 22px;
+    padding-left: 20px;
+}
+.MainLogin>label{
+  align-items: left;
+}
+input:focus{
+    outline: none;
+    border: 0px;
+}
+.loginEnd{
+    padding: 10px;
+    
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+   width: 100%;
+    /* background-color: red; */
+}
+#EndBtn{
+    padding: 15px 35px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.loginEnd>a{
+    margin-top: auto;
+    margin-bottom: auto;
+    color: black;
+}
+.loginEnd>a:hover{
+    color: red;
+}

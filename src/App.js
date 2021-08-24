@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+
 import './App.css';
+// import Header from './commonComponents/header';
+// import CenterContent from './commonComponents/centerContent/centerContent';
+// import DashBoard from './commonComponents/dashboard/dashBoard';
+// import MediaCard from '../src/commonComponents/dashboard/dashBoard'
+// import MainDashboard from '../src/commonComponents/dashboard/mainDashboard/mainDashboard'
+// import Footer from './commonComponents/footer';
+
+import Roucting from './routing';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    {/* <Header /> */}
+     {/* <CenterContent /> */}
+     {/* <DashBoard /> */}
+     {/* <MediaCard /> */}
+     {/* <MainDashboard /> */}
+     {/* <Footer /> */}
+     <Roucting />
     </div>
   );
 }

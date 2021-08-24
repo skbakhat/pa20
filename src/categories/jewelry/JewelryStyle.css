@@ -1,0 +1,16 @@
+.MainCard {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 95%;
+    margin: auto;
+    margin-top: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .MainCard2 {
+    margin: 2px;
+    
+  }
+  

@@ -1,0 +1,66 @@
+.mainP{
+    color: #bdb0b0;
+    font-size:small;
+}
+a{
+    text-decoration:underline;
+    color: red;
+}
+hr{
+    border-top: .5px solid #e9e1e1;
+    
+}
+h1{
+    font-size: 42px;
+    
+}
+.iconsDiv{
+   display: flex;
+   
+   /* flex-direction: column; */
+   /* margin-top: auto; */
+   text-align: center;
+   justify-content: center;
+   padding: 10px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    
+}
+.lined{ 
+    border-left: 1px solid black;
+    height: 20px;
+    align-self: center;
+  
+}
+.imported{
+   
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 10px;
+}
+.DropDown{
+  
+    display: flex;
+    text-align: center;
+}
+.DropImported{
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding:5px;
+    background-color: red;
+    
+}
+@media screen and (max-width: 480px) {
+    .main {
+        width: 100%;
+        position: relative;
+        display: block;
+      
+    }
+  }
